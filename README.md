@@ -29,6 +29,6 @@ The application utilizes Azure Cognitive Services for text-to-speech. This is us
 -   index.js contains the Javascript code for the web application. This works with HTML to add functionality to the site.
 -   Loads the model and metadata and handles image data.
 
-### Docs 
+## Docs 
 
 [Docs for Aiden](https://docs.google.com/document/d/1IxJhEJogv0XJBAPvENuT_G3PnG_-fyHArZoxO5YcJ6M/edit?usp=sharing)

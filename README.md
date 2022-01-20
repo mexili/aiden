@@ -1,6 +1,7 @@
-# Aiden. Your physio assistant.
+![Aiden](/assets/aiden.png)
 
-### Aiden is a web app utilising **_tensorflow.js_**, browser-based Machine Learning library, to enable accessible physiotherapy for the Visually Impaired and other people as well - talking through exercises by responding to users' postures in real-time.
+# Aiden - Your Physio assistant.
+#### Aiden is a web app utilising **_tensorflow.js_**, browser-based Machine Learning library, to enable accessible physiotherapy for the Visually Impaired and other people as well - talking through exercises by responding to users' postures in real-time.
 
 Aiden makes it easier for users to not only complete but to improve their techniques independently.
 
@@ -15,8 +16,10 @@ Aiden makes it easier for users to not only complete but to improve their techni
 ### Machine Learning - tensorflow.js
 
 Aiden uses a [tensorflow.js](https://www.tensorflow.org/js)  (browser-based) model to make predictions on the state of the current user's pose. It has been trained on a dataset of images created by us (~300 images per pose) to predict whether the position is correct, or incorrect - and what makes it so.
+
 We have used Azure Machine Learning Studio, an Azure Machine Learning tool, to train our models in the various physiotherapy poses.
 Azure Cognitive Services Speech-to-Text API was also used to enable the application to be accessible by the visually impaired. The user can start their exercises via speech in various languages using Azure Translator Speech API remotely and this is more convenient and easier to use for our target audience.
+
 The application utilizes Azure Cognitive Services for text-to-speech. This is useful for the visually impaired as they can hear if they are in the right position as the application will tell them to adjust their posture if incorrect.
 
 ### Index.html
